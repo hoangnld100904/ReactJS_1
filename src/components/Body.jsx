@@ -1,4 +1,5 @@
 import React from "react";
+import placeholderImg from '../500x325.png'
 export default function Body() {
     return (
         <div id="body">
@@ -21,7 +22,7 @@ export default function Body() {
                         <div className="row gx-lg-5">
                             <div className="col-4 mb-5">
                                 <div className="card" style={{ width: '18rem' }}>
-                                    <img className="card-img-top" src="http://via.placeholder.com/500x325" alt="Card image cap" />
+                                    <img className="card-img-top" src={placeholderImg} alt="Card image cap" />
                                     <div className="card-body">
                                         <h5 className="card-title">Card title</h5>
                                         <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -32,7 +33,7 @@ export default function Body() {
                             </div>
                             <div className="col-4 mb-5">
                                 <div className="card" style={{ width: '18rem' }}>
-                                    <img className="card-img-top" src="http://via.placeholder.com/500x325" alt="Card image cap" />
+                                    <img className="card-img-top" src={placeholderImg} alt="Card image cap" />
                                     <div className="card-body">
                                         <h5 className="card-title">Card title</h5>
                                         <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -43,7 +44,7 @@ export default function Body() {
                             </div>
                             <div className="col-4 mb-5">
                                 <div className="card" style={{ width: '18rem' }}>
-                                    <img className="card-img-top" src="http://via.placeholder.com/500x325" alt="Card image cap" />
+                                    <img className="card-img-top" src={placeholderImg} alt="Card image cap" />
                                     <div className="card-body">
                                         <h5 className="card-title">Card title</h5>
                                         <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
